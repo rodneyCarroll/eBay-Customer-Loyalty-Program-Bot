@@ -132,7 +132,7 @@ ebay-customer-loyalty-program-bot/
 ```
 
 
-##Use Cases 
+## Use Cases 
 - **eBay power sellers** use it to auto-send thank-you messages and tiered coupons after purchase, so they can **increase repeat orders and feedback volume**.  
 - **Brand storefronts** use it to run VIP and win-back campaigns, so they can **recover lapsed buyers and lift LTV without extra staff**.  
 - **Agencies** use it to orchestrate multi-account loyalty programs across clients, so they can **scale retention ops with centralized reporting**.  
@@ -154,7 +154,7 @@ Selectors and vision fallbacks are abstracted in `vision_asserts.py`. You can ho
 **Where do I see performance and redemptions?**  
 Redemption and cohort exports are written to `/output` and can sync to Sheets/CRM via the `integrations/` adapters.
 
-##Performance & Reliability Benchmarks (must)
+## Performance & Reliability Benchmarks (must)
 - **Execution Speed:** Processes 1,200–1,800 buyer events per hour per 20 devices, including message send + coupon issue + log write.  
 - **Success Rate:** ~**95%** end-to-end success on stable network/device farms with retry level ≤2.  
 - **Scalability:** Proven orchestration patterns for **300–1,000** Android devices with batched scheduling and sharded queues.  
